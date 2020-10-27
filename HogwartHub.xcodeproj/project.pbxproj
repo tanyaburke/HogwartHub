@@ -116,6 +116,7 @@
 				2E6FA4222547D453003F1FFE /*  NetworkFiles */,
 				2E6FA4292547D53D003F1FFE /* Model */,
 				2E6FA43A2547DC37003F1FFE /* Extensions */,
+				2ECF4F8225488376009B27ED /* New Group */,
 				2E6FA4412547DDF6003F1FFE /* View Controllers */,
 				2E6FA4002547D099003F1FFE /* AppDelegate.swift */,
 				2E6FA4022547D099003F1FFE /* SceneDelegate.swift */,
@@ -169,8 +170,8 @@
 		2E6FA4332547DB8E003F1FFE /* Gifs */ = {
 			isa = PBXGroup;
 			children = (
-				2E6FA4342547DBAA003F1FFE /* clouds2.gif */,
 				2E6FA4382547DBC5003F1FFE /* soRTHAT.gif */,
+				2E6FA4342547DBAA003F1FFE /* clouds2.gif */,
 				2E6FA4362547DBB4003F1FFE /* sortinghat.gif */,
 			);
 			path = Gifs;
@@ -196,6 +197,13 @@
 				2E6FA4482547DEE1003F1FFE /* SortingHatViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2ECF4F8225488376009B27ED /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

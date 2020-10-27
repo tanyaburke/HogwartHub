@@ -55,7 +55,7 @@ class CharacterViewController: UIViewController {
         guard let detailVC = segue.destination as? DetailViewController, let indexPath = tableView.indexPathForSelectedRow else{
             fatalError("can't segue")
         }
-//        detailVC.character = characters[indexPath.row]
+        detailVC.character = characters[indexPath.row]
         
     }
     
@@ -91,16 +91,16 @@ extension CharacterViewController: UITableViewDataSource, UITableViewDelegate {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "characterCell", for: indexPath)
         cell.textLabel?.text = characters[indexPath.row].name
-//        cell.imageView?.getImage(with: characters[indexPath.row].image, completion: { (result) in
-//            DispatchQueue.main.async{
-//                switch result{
-//                case .failure:
-//                    cell.imageView?.image = UIImage(named: "exclamationmark")
-//                case .success(let imageOk):
-//                    cell.imageView?.image = imageOk
-//                }
-//            }
-//        })
+        cell.imageView?.getImage(with: characters[indexPath.row].image, completion: { (result) in
+            DispatchQueue.main.async{
+                switch result{
+                case .failure:
+                    cell.imageView?.image = UIImage(named: "exclamationmark")
+                case .success(let imageOk):
+                    cell.imageView?.image = imageOk
+                }
+            }
+        })
         return cell
     }
     

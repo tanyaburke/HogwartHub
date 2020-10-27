@@ -9,22 +9,51 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
     
+    
+    @IBOutlet weak var characterImage: UIImageView!
+        
+        
+          @IBOutlet weak var detailLabel: UILabel!
+           
+        @IBOutlet weak var backgroundImage: UIImageView!
+        
+        var character: Characters?
+          
+          override func viewDidLoad() {
+              super.viewDidLoad()
+            
+             loadDetails()
+            backgroundImage.loadGif(name: "clouds")
+          }
 
-    /*
-    // MARK: - Navigation
+          
+          func loadDetails(){
+              guard let character = character else{
+                  fatalError("unable to access passed information")
+              }
+            navigationItem.title = "\(String(describing: character.name))"
+            detailLabel.text = "Actor: \(character.actor)\nAncestry: \(character.ancestry)\nHouse: \(character.house)"
+              
+            
+              
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+            characterImage.getImage(with: character.image) {[weak self] (result) in
+                      switch result{
+                      case .failure:
+                          DispatchQueue.main.sync{
+                              self?.characterImage.image = UIImage(systemName: "exclamationmark.triangle")
+
+                          }
+                      case .success(let image):
+                          DispatchQueue.main.async {
+                              self?.characterImage.image = image
+
+                          }
+                      }
+
+                  }
+              }
+          
     }
-    */
 
-}
