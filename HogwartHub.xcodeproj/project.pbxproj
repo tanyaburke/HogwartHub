@@ -14,6 +14,10 @@
 		2E6FA40A2547D09B003F1FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6FA4092547D09B003F1FFE /* Assets.xcassets */; };
 		2E6FA40D2547D09B003F1FFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6FA40B2547D09B003F1FFE /* LaunchScreen.storyboard */; };
 		2E6FA4182547D09B003F1FFE /* HogwartHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6FA4172547D09B003F1FFE /* HogwartHubTests.swift */; };
+		2E6FA4242547D485003F1FFE /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6FA4232547D485003F1FFE /* API.swift */; };
+		2E6FA4262547D4CB003F1FFE /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6FA4252547D4CB003F1FFE /* NetworkHelper.swift */; };
+		2E6FA4282547D516003F1FFE /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6FA4272547D516003F1FFE /* AppError.swift */; };
+		2E6FA42B2547D5AF003F1FFE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6FA42A2547D5AF003F1FFE /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		2E6FA4132547D09B003F1FFE /* HogwartHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HogwartHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E6FA4172547D09B003F1FFE /* HogwartHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogwartHubTests.swift; sourceTree = "<group>"; };
 		2E6FA4192547D09B003F1FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E6FA4232547D485003F1FFE /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		2E6FA4252547D4CB003F1FFE /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		2E6FA4272547D516003F1FFE /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		2E6FA42A2547D5AF003F1FFE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +87,15 @@
 		2E6FA3FF2547D099003F1FFE /* HogwartHub */ = {
 			isa = PBXGroup;
 			children = (
+				2E6FA4222547D453003F1FFE /*  NetworkFiles */,
+				2E6FA4292547D53D003F1FFE /* Model */,
 				2E6FA4002547D099003F1FFE /* AppDelegate.swift */,
 				2E6FA4022547D099003F1FFE /* SceneDelegate.swift */,
 				2E6FA4042547D099003F1FFE /* ViewController.swift */,
 				2E6FA4062547D099003F1FFE /* Main.storyboard */,
 				2E6FA4092547D09B003F1FFE /* Assets.xcassets */,
 				2E6FA40B2547D09B003F1FFE /* LaunchScreen.storyboard */,
+				2E6FA42C2547D5E7003F1FFE /* Music */,
 				2E6FA40E2547D09B003F1FFE /* Info.plist */,
 			);
 			path = HogwartHub;
@@ -97,6 +108,31 @@
 				2E6FA4192547D09B003F1FFE /* Info.plist */,
 			);
 			path = HogwartHubTests;
+			sourceTree = "<group>";
+		};
+		2E6FA4222547D453003F1FFE /*  NetworkFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2E6FA4232547D485003F1FFE /* API.swift */,
+				2E6FA4252547D4CB003F1FFE /* NetworkHelper.swift */,
+				2E6FA4272547D516003F1FFE /* AppError.swift */,
+			);
+			path = " NetworkFiles";
+			sourceTree = "<group>";
+		};
+		2E6FA4292547D53D003F1FFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E6FA42A2547D5AF003F1FFE /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E6FA42C2547D5E7003F1FFE /* Music */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +236,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E6FA42B2547D5AF003F1FFE /* Model.swift in Sources */,
 				2E6FA4052547D099003F1FFE /* ViewController.swift in Sources */,
 				2E6FA4012547D099003F1FFE /* AppDelegate.swift in Sources */,
+				2E6FA4282547D516003F1FFE /* AppError.swift in Sources */,
+				2E6FA4262547D4CB003F1FFE /* NetworkHelper.swift in Sources */,
+				2E6FA4242547D485003F1FFE /* API.swift in Sources */,
 				2E6FA4032547D099003F1FFE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
