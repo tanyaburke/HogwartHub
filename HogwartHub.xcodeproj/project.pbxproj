@@ -24,6 +24,9 @@
 		2E6FA4352547DBAA003F1FFE /* clouds2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E6FA4342547DBAA003F1FFE /* clouds2.gif */; };
 		2E6FA4372547DBB4003F1FFE /* sortinghat.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E6FA4362547DBB4003F1FFE /* sortinghat.gif */; };
 		2E6FA4392547DBC5003F1FFE /* soRTHAT.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E6FA4382547DBC5003F1FFE /* soRTHAT.gif */; };
+		2E6FA43C2547DC90003F1FFE /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6FA43B2547DC90003F1FFE /* UIViewController+Alert.swift */; };
+		2E6FA43E2547DCCB003F1FFE /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6FA43D2547DCCB003F1FFE /* UIImage+Extension.swift */; };
+		2E6FA4402547DD51003F1FFE /* GifExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6FA43F2547DD51003F1FFE /* GifExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		2E6FA4342547DBAA003F1FFE /* clouds2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = clouds2.gif; sourceTree = "<group>"; };
 		2E6FA4362547DBB4003F1FFE /* sortinghat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sortinghat.gif; sourceTree = "<group>"; };
 		2E6FA4382547DBC5003F1FFE /* soRTHAT.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = soRTHAT.gif; sourceTree = "<group>"; };
+		2E6FA43B2547DC90003F1FFE /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		2E6FA43D2547DCCB003F1FFE /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		2E6FA43F2547DD51003F1FFE /* GifExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 			children = (
 				2E6FA4222547D453003F1FFE /*  NetworkFiles */,
 				2E6FA4292547D53D003F1FFE /* Model */,
+				2E6FA43A2547DC37003F1FFE /* Extensions */,
+				2E6FA4412547DDF6003F1FFE /* New Group */,
 				2E6FA4002547D099003F1FFE /* AppDelegate.swift */,
 				2E6FA4022547D099003F1FFE /* SceneDelegate.swift */,
 				2E6FA4042547D099003F1FFE /* ViewController.swift */,
@@ -159,6 +167,23 @@
 				2E6FA4362547DBB4003F1FFE /* sortinghat.gif */,
 			);
 			path = Gifs;
+			sourceTree = "<group>";
+		};
+		2E6FA43A2547DC37003F1FFE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2E6FA43B2547DC90003F1FFE /* UIViewController+Alert.swift */,
+				2E6FA43F2547DD51003F1FFE /* GifExtension.swift */,
+				2E6FA43D2547DCCB003F1FFE /* UIImage+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2E6FA4412547DDF6003F1FFE /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,14 +292,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E6FA43C2547DC90003F1FFE /* UIViewController+Alert.swift in Sources */,
 				2E6FA42B2547D5AF003F1FFE /* Model.swift in Sources */,
 				2E6FA4052547D099003F1FFE /* ViewController.swift in Sources */,
 				2E6FA4012547D099003F1FFE /* AppDelegate.swift in Sources */,
 				2E6FA4282547D516003F1FFE /* AppError.swift in Sources */,
 				2E6FA4262547D4CB003F1FFE /* NetworkHelper.swift in Sources */,
 				2E6FA4242547D485003F1FFE /* API.swift in Sources */,
+				2E6FA43E2547DCCB003F1FFE /* UIImage+Extension.swift in Sources */,
 				2E6FA4032547D099003F1FFE /* SceneDelegate.swift in Sources */,
 				2E6FA42E2547DB08003F1FFE /* Music.swift in Sources */,
+				2E6FA4402547DD51003F1FFE /* GifExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
