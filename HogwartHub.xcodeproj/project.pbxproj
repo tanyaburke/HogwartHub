@@ -18,6 +18,9 @@
 		2E6FA4262547D4CB003F1FFE /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6FA4252547D4CB003F1FFE /* NetworkHelper.swift */; };
 		2E6FA4282547D516003F1FFE /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6FA4272547D516003F1FFE /* AppError.swift */; };
 		2E6FA42B2547D5AF003F1FFE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6FA42A2547D5AF003F1FFE /* Model.swift */; };
+		2E6FA42E2547DB08003F1FFE /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6FA42D2547DB08003F1FFE /* Music.swift */; };
+		2E6FA4302547DB13003F1FFE /* Harry Potter Theme Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E6FA42F2547DB13003F1FFE /* Harry Potter Theme Song.mp3 */; };
+		2E6FA4322547DB1C003F1FFE /* arthur-vyncke-snow-and-magic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E6FA4312547DB1C003F1FFE /* arthur-vyncke-snow-and-magic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		2E6FA4252547D4CB003F1FFE /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		2E6FA4272547D516003F1FFE /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		2E6FA42A2547D5AF003F1FFE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2E6FA42D2547DB08003F1FFE /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		2E6FA42F2547DB13003F1FFE /* Harry Potter Theme Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Harry Potter Theme Song.mp3"; sourceTree = "<group>"; };
+		2E6FA4312547DB1C003F1FFE /* arthur-vyncke-snow-and-magic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "arthur-vyncke-snow-and-magic.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,9 @@
 		2E6FA42C2547D5E7003F1FFE /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				2E6FA42D2547DB08003F1FFE /* Music.swift */,
+				2E6FA42F2547DB13003F1FFE /* Harry Potter Theme Song.mp3 */,
+				2E6FA4312547DB1C003F1FFE /* arthur-vyncke-snow-and-magic.mp3 */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -216,9 +225,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E6FA4322547DB1C003F1FFE /* arthur-vyncke-snow-and-magic.mp3 in Resources */,
 				2E6FA40D2547D09B003F1FFE /* LaunchScreen.storyboard in Resources */,
 				2E6FA40A2547D09B003F1FFE /* Assets.xcassets in Resources */,
 				2E6FA4082547D099003F1FFE /* Main.storyboard in Resources */,
+				2E6FA4302547DB13003F1FFE /* Harry Potter Theme Song.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +254,7 @@
 				2E6FA4262547D4CB003F1FFE /* NetworkHelper.swift in Sources */,
 				2E6FA4242547D485003F1FFE /* API.swift in Sources */,
 				2E6FA4032547D099003F1FFE /* SceneDelegate.swift in Sources */,
+				2E6FA42E2547DB08003F1FFE /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
