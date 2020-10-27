@@ -12,7 +12,7 @@ struct HogwartsAPICLient {
 
 static func fetchCharacters(completion: @escaping (Result <[Characters],AppError>)->()){
     
-    let movieEndPointURLString = "http://hp-api.herokuapp.com/api/characters"
+    let movieEndPointURLString = "https://hp-api.herokuapp.com/api/characters"
     guard let url = URL(string: movieEndPointURLString) else {
         completion(.failure(.badURL(movieEndPointURLString)))
         return
