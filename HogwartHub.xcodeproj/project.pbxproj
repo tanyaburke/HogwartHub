@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2E6FA4012547D099003F1FFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6FA4002547D099003F1FFE /* AppDelegate.swift */; };
 		2E6FA4032547D099003F1FFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6FA4022547D099003F1FFE /* SceneDelegate.swift */; };
-		2E6FA4052547D099003F1FFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6FA4042547D099003F1FFE /* ViewController.swift */; };
+		2E6FA4052547D099003F1FFE /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6FA4042547D099003F1FFE /* CharacterViewController.swift */; };
 		2E6FA4082547D099003F1FFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6FA4062547D099003F1FFE /* Main.storyboard */; };
 		2E6FA40A2547D09B003F1FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6FA4092547D09B003F1FFE /* Assets.xcassets */; };
 		2E6FA40D2547D09B003F1FFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6FA40B2547D09B003F1FFE /* LaunchScreen.storyboard */; };
@@ -47,7 +47,7 @@
 		2E6FA3FD2547D099003F1FFE /* HogwartHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HogwartHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E6FA4002547D099003F1FFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E6FA4022547D099003F1FFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2E6FA4042547D099003F1FFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E6FA4042547D099003F1FFE /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
 		2E6FA4072547D099003F1FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E6FA4092547D09B003F1FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E6FA40C2547D09B003F1FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -189,7 +189,7 @@
 		2E6FA4412547DDF6003F1FFE /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2E6FA4042547D099003F1FFE /* ViewController.swift */,
+				2E6FA4042547D099003F1FFE /* CharacterViewController.swift */,
 				2E6FA4422547DEA5003F1FFE /* DetailViewController.swift */,
 				2E6FA4442547DEB7003F1FFE /* CollectionViewController.swift */,
 				2E6FA4462547DEC8003F1FFE /* HouseViewController.swift */,
@@ -308,7 +308,7 @@
 				2E6FA43C2547DC90003F1FFE /* UIViewController+Alert.swift in Sources */,
 				2E6FA42B2547D5AF003F1FFE /* Model.swift in Sources */,
 				2E6FA4472547DEC8003F1FFE /* HouseViewController.swift in Sources */,
-				2E6FA4052547D099003F1FFE /* ViewController.swift in Sources */,
+				2E6FA4052547D099003F1FFE /* CharacterViewController.swift in Sources */,
 				2E6FA4432547DEA5003F1FFE /* DetailViewController.swift in Sources */,
 				2E6FA4012547D099003F1FFE /* AppDelegate.swift in Sources */,
 				2E6FA4492547DEE1003F1FFE /* SortingHatViewController.swift in Sources */,
